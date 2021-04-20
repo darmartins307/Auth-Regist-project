@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#title { 
+    text-align: center;
+    font-family:cursive;
+    color: rgb(45, 175, 175); 
+    font-size: 45px;
+
+}
+
+.head {
+    padding: 30px;
+    background-color: rgb(241, 250, 114);
+    border-radius: 2px;
+    border-bottom-width: 5px;
+    border-style: solid;
+
+}
+
+#perfil { 
+
+    margin-left: 10%;
+    padding: 3%
+    
+}
+
+input{
+    width: 40%;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: border 0.3s;
+
+}
+
+input [type=text]:hover{
+    border: 2px solid #7a6ef9;
+    box-shadow: 1px 2px 8px rgba(122,110,249, 0.8);
+    transition-duration: 0.3s;
+}
+
+input:focus { 
+    outline-color:#7a6ef9; 
+}
+#email {
+    margin-top: 3px;
+}
+
+.form{ 
+    padding-left: 37%;
+    padding-top: 5%;
+}
+
+.social { 
+ width: 27%; 
+ height: 30px;
+margin-left: 7%;  
+
+}
+
+#gl { 
+    background-color: rgb(207, 75, 75);
+}
+
+#fc { 
+    background-color: #4169e1;
+    
+}
+
+body { 
+    background-color: burlywood;
+}
